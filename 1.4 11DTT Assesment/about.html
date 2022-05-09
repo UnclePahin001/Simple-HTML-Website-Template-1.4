@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPCA National Stadium - About</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="vip.html">StadiumVIP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+<!---------- ABOUT US Page Content ---------->    
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are Aotearoa New Zealand's first Carbon Zero Stadium</h1>     
+                <p>At our heart is a superb performance space, attracting the biggest names in the world of sports & entertainment since 2007. Along with large-scale concerts and events, 
+                SPCA National Stadium's strength lies in its ability to be configured into intimate modes, scaling exactly to accommodate audiences from 1,800 to 12,000 in the main arena, 
+                and 100-300 in the StadiumVIP lounge space. With a convenient central location, SPCA National Stadium is within walking distance from the Auckland City Centre and the major 
+                public transport hubs: Britomart railway station & bus terminal, and the downtown ferry terminal. More than just a building for hire, SPCA National Stadium's in-house management 
+                team has a long track record in international events management and is proactive in helping each event fulfill its unique potential.</p>
+                
+                <a href="https://www.spca.nz/" class="hero-btn red-btn">Visit SPCA New Zealand</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>SPCA National Stadium</h4>
+    <p>The SPCA (Royal New Zealand Society for the Prevention of Cruelty to Animals Incorporated) is a registered charity. Our Charities Commission number is CC22705</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/RoyalNZSPCA/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/spcanz/?hl=en"><i class="fa fa-instagram"></i></a>
+        
+    </div>
+    <a href="https://www.linkedin.com/in/zahinmb/" class="footer-link"><p>Made with Visual Studio Code by UnclePahin, April 2022</p></a>
+</section>      
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
